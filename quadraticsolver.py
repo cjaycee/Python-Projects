@@ -1,0 +1,7 @@
+print("ax^2+bx+c")
+a = float(input("value of a: "))
+b = float(input("value of b: "))
+c = float(input("value of c: "))
+answer1 = float((((-b)+((b**2-(4*a*c))**0.5))/(2*a)))
+answer2 = float((((-b)-((b**2-(4*a*c))**0.5))/(2*a)))
+print(f"your answers are {answer1} and {answer2}")
